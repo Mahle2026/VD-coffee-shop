@@ -51,7 +51,6 @@ section{
     min-height: 100vh;
     display: flex;
     text-align: center;
-    background:lightcyan;
     color: black;
     align-self: center;
     justify-content: space-between;
