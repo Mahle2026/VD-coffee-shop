@@ -46,8 +46,16 @@ align-items: center;
     color: #d6a76c;
 }
 
-#menuBtn {
+#menu {
     display: none;
+}
+
+#menu.active {
+    display: flex;
+    flex-direction: column;
+}
+
+#menuButton {
     background: none;
     color: #e7d2bd;
     border: none;
@@ -57,10 +65,14 @@ align-items: center;
     cursor: pointer;
 }
 
+
 .hero{
     min-height:100vh;
     background-image: url("hero.png");
+    background-size: cover;
+    background-position: center
     display: flex;
+    flex-direction: column;
     width:100%;
     justify-self: center;
     align-items: center;
@@ -70,10 +82,11 @@ align-items: center;
 }
 
 .hero-content{
-    max-width: 750px;
+    max-width: 60%;
+    margin: auto;
     background:  rgba(75, 46, 31,0.45);
-    padding: 35px;
-    border-radius: 18px;
+    padding: 25px;
+    border-radius: 10px;
 }
 
 .hero h1{
@@ -240,7 +253,7 @@ footer {
     }
 
     .hero {
-        min-height: 80vh;
+        min-height:80vh;
         width: 100%;
         padding: 40px 6%;
         background-size: cover;
