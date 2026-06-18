@@ -38,10 +38,12 @@ header{
 } 
 
 .hero {
+    min-height: 100vh;
+    display: flex;
     text-align: center;
     background:lightcyan;
     color: black;
-    justify-content: center;
+    justify-content: space-between;
     border:1px solid #111;
     border-radius: 8px;
 }
