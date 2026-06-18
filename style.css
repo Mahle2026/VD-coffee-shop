@@ -14,7 +14,7 @@ body{
 
 header{
     align-items: center;
-    justify-content: space-between;
+    align-items: center;
     gap: 15px;
     background: beige;
     color: black;
