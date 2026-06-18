@@ -237,7 +237,7 @@ footer {
     }
 
     .hero {
-        min-height: 80vh;
+        min-height: 70vh;
         padding: 30px 6%;
     }
 
@@ -263,14 +263,20 @@ footer {
     section h2{
         font-size: 30px;
     }
-    
+    .story{
+        text-align: center;
+    }
     .story img{
         height: 200px;
     }
     .menu-grid{
         grid-template-columns: repeat(2, 1fr);
     }
-
+    
+    .menu-item{
+        height: 200px;
+        width: 200px;
+    }
     .menu-item img{
         height: 200px;
     }
