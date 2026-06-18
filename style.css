@@ -24,5 +24,15 @@ header{
 .logo{
     font-size: 22px;
     background-color: brown;
-    text-align: center;
+    align-items: flex-start;
 }
+
+.nav-links{
+    display: block;
+    background: beige;
+    color: black;
+}
+
+.nav-links a{
+    color: black;
+} 
