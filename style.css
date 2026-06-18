@@ -210,6 +210,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+    
     header {
         padding: 15px 6%;
     }
@@ -269,10 +270,12 @@ footer {
     }
     .menu-grid{
         grid-template-columns: repeat(2, 1fr);
+        height: 250px;
+        width: 250px;
     }
 
     .menu-item img{
-        height: 240px;
+        height: 200px;
     }
 
 
