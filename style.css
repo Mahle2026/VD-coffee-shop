@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background: beige;
+    background: #8b5e3c;
     padding: 18px 8%;
     position: sticky;
     top: 0;
@@ -58,8 +58,8 @@ align-items: center;
 }
 
 .hero{
-    min-height: 90vh;
-    background:linear-gradient(rgba(59,36,33,0.65));
+    min-height:90vh;
+    background-image: url("hero.png");
     display: flex;
     justify-self: center;
     align-items: center;
@@ -92,6 +92,52 @@ align-items: center;
 
 section{
     padding: 60px 8%;
+}
+
+section h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #4b2e1f;
+}
+
+.story {
+    text-align: left;
+    background: #f4eadf;
+}
+
+.story img{
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0 10px 25px rgba(75,46,31, 0.35);
+}
+
+.story p{
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.menu {
+    background:#e7d2bd;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    gap: 25px;
+}
+
+.menu-item{
+    background: #fff7ed;
+    padding: 18px;
+    border-radius: 18px;
+    text-align: center;
+    
 }
 
 
