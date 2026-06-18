@@ -270,8 +270,6 @@ footer {
     }
     .menu-grid{
         grid-template-columns: repeat(2, 1fr);
-        height: 250px;
-        width: 250px;
     }
 
     .menu-item img{
