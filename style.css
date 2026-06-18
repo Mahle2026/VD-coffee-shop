@@ -43,6 +43,7 @@ header{
     text-align: center;
     background:lightcyan;
     color: black;
+    align-self: center;
     justify-content: space-between;
     border:1px solid #111;
     border-radius: 8px;
