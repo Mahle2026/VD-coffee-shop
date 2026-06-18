@@ -265,7 +265,7 @@ footer {
     }
     
     .story img{
-        height: 250px;
+        height: 200px;
     }
     .menu-grid{
         grid-template-columns: repeat(2, 1fr);
