@@ -49,6 +49,9 @@ section{
 
 .hero {
     min-height: 100vh;
+    background:blanchedalmond;
+    background-size: cover;
+    background-position: center;
     display: flex;
     text-align: center;
     color: black;
