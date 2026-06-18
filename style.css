@@ -269,7 +269,7 @@ footer {
     }
 
     .hero {
-        min-height:80vh;
+        min-height:70vh;
         width: 100%;
         padding: 40px 6%;
     }
@@ -299,10 +299,32 @@ footer {
         font-size: 30px;
     }
     .story{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
     .story img{
+        width: 100%;
+        max-width: 250px;
         height: 240px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .story-content{
+        width: 100%;
+    }
+
+    .story-content{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .story-content p{
+        text-align: center;
+        line-height: 1.8;
     }
     .menu-grid{
         grid-template-columns: repeat(2, 1fr);
