@@ -272,20 +272,19 @@ footer {
         min-height:80vh;
         width: 100%;
         padding: 40px 6%;
-        background-size: cover;
-        background-position: center;
     }
 
     .hero-content {
         width: 100%;
         padding: 25px 18px;
+        text-align: center;
     }
 
-    .hero h1{
+    .hero-content h1{
         font-size: 34px;
     }
 
-    .hero p{
+    .hero-content- p{
         font-size: 18px;
     }
     .hero h3{
