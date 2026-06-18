@@ -68,10 +68,10 @@ align-items: center;
 
 .hero{
     min-height:100vh;
+    display: flex;
     background-image: url("hero.png");
     background-size: cover;
-    background-position: center
-    display: flex;
+    background-position: center;
     flex-direction: column;
     width:100%;
     justify-self: center;
@@ -82,26 +82,30 @@ align-items: center;
 }
 
 .hero-content{
-    max-width: 60%;
+    width: 100%;
+    max-width: 900px;
     margin: auto;
     background:  rgba(75, 46, 31,0.45);
-    padding: 25px;
+    padding: 40px;
     border-radius: 10px;
 }
 
-.hero h1{
+.hero-content h1{
     font-size: 50px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
-.hero p{
+.hero-content p{
     font-size: 20px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
-.hero h3{
+.hero-content h3{
     font-size: 24px;
     color: #f1c27d;
+    text-align: center;
 }
 
 section{
@@ -116,24 +120,36 @@ section h2{
 }
 
 .story {
-    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 8%;
     background: #f4eadf;
 }
 
 .story img{
-    width: 100%;
+    width: 45%;
     max-width: 500px;
-    height: 350px;
+    height: 400px;
     object-fit: cover;
     border-radius: 20px;
     margin: 20px;
     box-shadow: 0 10px 25px rgba(75,46,31, 0.35);
 }
 
-.story p{
-    max-width: 800px;
-    margin: auto;
-    font-size: 18px;
+.story-content{
+    width: 50%;
+}
+
+.story-content h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.story-content p{
+    text-align: left;
+    line-break: 1.6;
 }
 
 .menu {
