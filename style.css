@@ -27,12 +27,12 @@ header{
     align-items: flex-start;
 }
 
-.nav-links{
+.navLinks{
     display: block;
     background: beige;
     color: black;
 }
 
-.nav-links a{
+.navLinks a{
     color: black;
 } 
