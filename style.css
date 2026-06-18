@@ -48,8 +48,8 @@ align-items: center;
 
 #menuBtn {
     display: none;
-    background: #d6a76c;
-    color: #3b2416;
+    background: none;
+    color: #e7d2bd;
     border: none;
     padding: 6px 12px;
     font-size: 28px;
