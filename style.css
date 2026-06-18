@@ -6,72 +6,92 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #2f211b;
-    width: 100%;
-    padding: 15px 39px;
-    display: flex;
-    color: black;
-    justify-content: space-between;
-    align-items: center;
-    padding: auto;
-    z-index: 1000;
+    background: #f4eadf;
+    color: #3b2416;
+    line-height: 1.6;
 }
 
 header{
-    align-items: center;
-    align-items: center;
-    gap: 15px;
-    background: beige;
-    color: black;
-    display: flex;
-    flex-direction: column;
-}
-.logo{
-    font-size: 22px;
-    background-color: brown;
-    align-items: left;
+    background: #4b231f;
+    padding: 18px 8%;
+    position: sticky;
+    top: 0;
+    z-index:0;
 }
 
 .navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo h2{
+    color: #f8ead8;
+    font-size: 30px;
+}
+
+.navlinks {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
-.navLinks a{
-    color: #f5f0e6;
+.navlinks a{
+    color: #f8ead8;
     text-decoration: none;
-    transition: 0.3;
+    font-weight: bold;
 }
 
-.navLinks a:hover{
-    color: #d8c3a5;
+.navlinks a:hover{
+    color: #d6a76c;
 }
 
-section{
-    width: 100%;
-    padding: 80px;
+#menuBtn {
+    display: none;
+    background: #d6a76c;
+    color: #3b2416;
+    border: none;
+    padding: 6px 12px;
+    font-size: 28px;
+    border-radius: 28px;
+    cursor: pointer;
 }
 
-.hero {
-    min-height: 100vh;
-    background:blanchedalmond;
-    background-size: cover;
-    background-position: center;
+.hero{
+    min-height: 90vh;
+    background:linear-gradient(rgba(59,36,33,0.65));
     display: flex;
+    justify-self: center;
+    align-items: center;
     text-align: center;
-    color: black;
-    align-self: center;
-    justify-content: space-between;
-    border:1px solid #111;
-    border-radius: 8px;
+    color: #fff73d;
+    padding: 40px 8%;
 }
 
-.hero h2{
-    text-align: center;
-    font-size:40px;
+.hero-content{
+    max-width: 750px;
+    background:  rgba(75, 46, 31,0.45);
+    padding: 35px;
+    border-radius: 18px;
+}
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 15px;
 }
 
 .hero p{
-    text-align: center;
     font-size: 20px;
+    margin-bottom: 15px;
 }
+
+.hero h3{
+    font-size: 24px;
+    color: #f1c27d;
+}
+
+section{
+    padding: 60px 8%;
+}
+
+
