@@ -267,15 +267,15 @@ footer {
         text-align: center;
     }
     .story img{
-        height: 150px;
+        height: 100px;
     }
     .menu-grid{
         grid-template-columns: repeat(2, 1fr);
     }
     
     .menu-item{
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 350px;
     }
     .menu-item img{
         height: 200px;
