@@ -24,18 +24,28 @@ header{
 .logo{
     font-size: 22px;
     background-color: brown;
-    align-items: flex-start;
+    align-items: left;
 }
 
 .navLinks{
-    display: block;
+    display: flex;
     background: beige;
     color: black;
 }
 
 .navLinks a{
     color: black;
+    background: beige;
 } 
+
+.menu-btn{
+
+}
+
+section{
+    width: 100%;
+    padding: 80px;
+}
 
 .hero {
     min-height: 100vh;
