@@ -18,6 +18,8 @@ header{
     gap: 15px;
     background: beige;
     color: black;
+    display: flex;
+    flex-direction: column;
 }
 .logo{
     font-size: 22px;
