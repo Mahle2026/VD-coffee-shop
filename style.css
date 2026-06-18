@@ -267,7 +267,7 @@ footer {
         text-align: center;
     }
     .story img{
-        height: 100px;
+        height: 120px;
     }
     .menu-grid{
         grid-template-columns: repeat(2, 1fr);
