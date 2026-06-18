@@ -214,7 +214,11 @@ footer {
     header {
         padding: 15px 6%;
     }
-
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     #menuBtn{
         display: block;
     }
@@ -226,7 +230,6 @@ footer {
         right: 6%;
         background: #4b2e1f;
         flex-direction: column;
-        width: 190px;
         padding: 20px;
         border-radius: 12px;
         box-shadow: 0 8px 20px rgba(0,0,0,0.25);
@@ -237,12 +240,16 @@ footer {
     }
 
     .hero {
-        min-height: 70vh;
-        padding: 30px 6%;
+        min-height: 80h;
+        width: 100%;
+        padding: 40px 6%;
+        background-size: cover;
+        background-position: center;
     }
 
     .hero-content {
-        padding: 25px;
+        width: 100%;
+        padding: 25px 18px;
     }
 
     .hero h1{
@@ -267,19 +274,43 @@ footer {
         text-align: center;
     }
     .story img{
-        height: 120px;
+        height: 240px;
     }
     .menu-grid{
         grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
     
     .menu-item{
-        height: 300px;
-        width: 350px;
+        height: auto;
+        width: 100%
     }
     .menu-item img{
-        height: 200px;
+        width: 100%;
+        height: 160px;
+        object-fit: cover;  
     }
+.hour {
+    padding: 40px 6%;
+}
+.hour-box {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
 
+.hour-box p{
+    font-size: 16px;
+    
+}
 
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 12px;
+}
 }
