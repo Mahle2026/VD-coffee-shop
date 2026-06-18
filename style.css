@@ -58,9 +58,10 @@ align-items: center;
 }
 
 .hero{
-    min-height:90vh;
+    min-height:100vh;
     background-image: url("hero.png");
     display: flex;
+    width:100%;
     justify-self: center;
     align-items: center;
     text-align: center;
@@ -236,6 +237,7 @@ footer {
 
     .hero {
         min-height: 75vh;
+        width: 100%;
         padding: 30px 6%;
     }
 
@@ -250,4 +252,28 @@ footer {
     .hero p{
         font-size: 18px;
     }
+    .hero h3{
+        font-size: 20px;
+    }
+
+    section{
+     padding: 45px 6%;
+    }
+
+    section h2{
+        font-size: 30px;
+    }
+    
+    .story img{
+        height: 250px;
+    }
+    .menu-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-item img{
+        height: 240px;
+    }
+
+
 }
