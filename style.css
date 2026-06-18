@@ -30,19 +30,19 @@ align-items: center;
     font-size: 30px;
 }
 
-.navlinks {
+.navLinks {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.navlinks a{
+.navLinks a{
     color: #f8ead8;
     text-decoration: none;
     font-weight: bold;
 }
 
-.navlinks a:hover{
+.navLinks a:hover{
     color: #d6a76c;
 }
 
