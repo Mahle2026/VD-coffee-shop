@@ -137,7 +137,79 @@ section h2{
     padding: 18px;
     border-radius: 18px;
     text-align: center;
-    
+    border: 1px solid #c49a6c;
+    box-shadow: 0 8px 20px rgba(75, 46,31, 0.18);
+    transition: 0.3s;
 }
 
+.menu-item:hover{
+    transform: translateY(-8px);
+}
 
+.menu-item img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+    border-radius: 14px;
+}
+
+.menu-item h3{
+    margin-top: 12px;
+    font-size: 24px;
+    color: #4b2e1f;
+}
+
+.menu-item p{
+    font-size: 18px;
+    font-weight: 24px;
+    color: #8b5e34;
+}
+
+.hour {
+    text-align: center;
+    background: #f4eadf;
+}
+
+.hour-box {
+    background: #fff7ed;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 18px;
+    border: 1px solid #c49a6c;
+    box-shadow: 0 80px 20px rgba(75, 46,31, 0.18);
+}
+
+.hour-box p{
+    font-size: 18px;
+    margin-bottom:10px;
+}
+
+.contact {
+    background: #5a3825;
+    color: #fff7ed;
+    text-align: center;
+}
+
+.contact h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #f1c27d;
+}
+
+.contact p{
+    font-size: 18px;
+}
+
+footer {
+    background: #3b2416;
+    color: #f8ead8;
+    text-align: center;
+    padding: 18px;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 6%;
+    }
+}
